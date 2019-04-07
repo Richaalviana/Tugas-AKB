@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Nama    : Richa Alvianawati Sumitra
+NIM     : 10116525
+Kelas   : IF-12 / AKB-12
+Tanggal : 06-April-2019
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sayhai"
+    android:orientation="vertical"
+    android:background="@color/whitetwo">
+
+    <RelativeLayout
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp">
+
+        <TextView
+            android:id="@+id/txtSayhai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/Hitam"
+            android:textSize="26sp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Oke"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/button_gradient_rounded_corner"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/oke"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
